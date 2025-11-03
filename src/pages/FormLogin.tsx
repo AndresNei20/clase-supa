@@ -14,6 +14,7 @@ export const FormLogin = () => {
         if (error) {
             console.log("Error login:", error);
         } 
+        console.log("Login successful:", data);
 
         navigate("/home")
     }
